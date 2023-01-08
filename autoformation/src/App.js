@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-import Cat from './Cat';
+import CatDetails from './Cat';
+// import Cat from './Cat';
 
-function App(props) {
+function App() {
   return (
-   <Cat color="Black"></Cat>
+   <CatDetails/>
   );
 }
 
