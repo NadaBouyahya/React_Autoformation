@@ -1,17 +1,10 @@
+import Group from "./components/Groups";
+
 function App() {
 
-  // let color = ['white', 'black', 'Pink'];
-
-  //   return (
-  //       <ul>
-  //           {
-  //           color.map(item => 
-  //               <li>I Like {item}</li>
-  //           )}
-            
-  //       </ul>
-
-  //   )
+  return (
+    <Group></Group>
+  )
 }
 
 
