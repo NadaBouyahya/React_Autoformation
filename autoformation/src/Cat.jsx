@@ -16,20 +16,3 @@ export default function CatDetails(props){
         <Cat color={CatInfo} name={CatInfo}/>
     )
 }
-
-
-// let color = ['white', 'black', 'orange'];
-
-// export default function List() {
-
-//     return (
-//         <ul>
-//             {
-//             color.map(item => 
-//                 <li>this is a {item} Cat </li>
-//             )}
-            
-//         </ul>
-
-//     )
-// }
