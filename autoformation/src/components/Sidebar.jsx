@@ -1,28 +1,16 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { SidebarData } from "./SidebarData";
 
-import {
-    createBrowserRouter,
-    RouterProvider,
-    Link
-  } from "react-router-dom";
 
-function Sidebar(props) {
-
-    const router = createBrowserRouter ([
-        {
-          // path : {},
-          element : <Sidebar/>
-        }
-      ])
-
+function Sidebar() {
       
     return (
-        <div>
-            <ul>
+        <div className="menu_content">
+            <ul className="menu_items">
                 {SidebarData.map((item) => {
                     return (
-                        <li><Link to={item.props.link}></Link></li>
+                        <li><Link to={item.link}>{item.title}</Link></li>
                     )
                 })}
             </ul>
